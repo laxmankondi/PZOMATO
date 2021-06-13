@@ -22,6 +22,7 @@ body{
     padding: 12px;
     border: none;
     border-radius: 6px; 
+    cursor: pointer;    
     
 }
 
@@ -57,6 +58,22 @@ body{
     width: 100%;
 }
 
+.hero__text{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;}
+
+ /*menu styles*/
+
+.food__menu__card{
+    width: 100%;
+}
+
+.food__image{
+    width: 100%;
+}
+
+
 @media(min-width: 768px){
 .navbar{
     justify-content: space-between;
@@ -68,7 +85,7 @@ body{
 }
 
 .button__primary{
-    padding: 20px;
+    padding: 12px 20px;
     font-size: 20px;
 }
 
@@ -80,22 +97,28 @@ body{
  gap: 10px;
 }
 
+.hero__text{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+}
 
 }
 
-@media(min-width:1020px){
-
-
-.hero__image__container{
-    width: 500px;
-    height: 300px;
-
-}
+@media(min-width:1020px){    
 
 .container{
     max-width: 1010px;
 }
+
+.hero__text{
+    font-size: 50px;
+}
 }
 @media(min-width: 1400px){
+
+ .container{
+     max-width: 1250px;
+ }   
 
 }
